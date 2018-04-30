@@ -1,0 +1,45 @@
+body {
+}
+
+.main{
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: column wrap;
+    width: 99vw;
+    height: 80vh;
+}
+.logo {
+    display:flex;
+}
+.logoImg {
+    width: 10%;
+    height: 15%;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.pricing {
+    border: 2px solid black;
+    max-width: 50%;
+}
+.priceList > li {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.priceList {
+    list-style-type: none;
+    padding: 0;
+}
+.navBar{
+    list-style-type: none;
+}
+.navBar >li{
+    display: inline;
+}
