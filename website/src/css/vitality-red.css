@@ -639,7 +639,8 @@ form .row:first-child .floating-label-form-group {
 
 footer.footer {
   padding: 50px 0 20px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px 4px #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
