@@ -7,13 +7,18 @@ h2 {
   font-weight: 700;
 }
 a, a:visited {
-  color: #d7ddb4
+}
+.picture{
+  color: #cfd5af;
+  font-family: Roboto, sans-serif;
+
 }
 
 p {
   margin-bottom: 10px;
   font-family: Roboto, sans-serif;
 }
+
 
 .div-block {
   width: 100%;
@@ -59,6 +64,7 @@ p {
   font-family: Roboto, sans-serif;
   color: hsla(69.47368421052632, 61.31%, 86.21%, 1.00);
   text-transform: uppercase;
+  background-color:#640908
 }
 
 .nav-link.call-cta {
@@ -460,7 +466,6 @@ p {
 
 @media (max-width: 767px) {
   ._10-p-padding.additional-services {
-    padding-top: 47%;
     padding-bottom: 10%;
     background-image: url('../images/walking.png');
     background-position: 50% -167%;
@@ -486,9 +491,9 @@ p {
     background-position: 50% 100%;
   }
   ._10-p-padding.additional-services {
-    padding-top: 77%;
+    padding-top: 4%;
     background-image: url('../images/walking.png');
-    background-position: 50% -304%;
+    background-position: 50% -1220%;
     background-size: 600px;
     background-repeat: no-repeat;
   }

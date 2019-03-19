@@ -1660,6 +1660,7 @@ textarea.w-select {
   width: 100%;
 }
 .w-nav-overlay .w--nav-menu-open {
+  background-color: #640908;
   top: 0;
 }
 .w-nav[data-animation="over-left"] .w-nav-overlay {
