@@ -14,8 +14,8 @@ p {
 
 .div-block {
   width: 100%;
-  height: 100%;
-  padding: 7% 15% 15%;
+  height: auto;
+  padding: 0%;
 }
 
 .nav-wrapper {
@@ -139,10 +139,10 @@ p {
 }
 
 ._10-p-padding.additional-services {
-  background-image: url('../images/walking.png');
-  background-position: 100% -265%;
-  background-size: 600px;
-  background-repeat: no-repeat;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: repeat;
 }
 
 ._10-p-padding.footer-div {
@@ -290,7 +290,8 @@ p {
 
 .slide {
   overflow: visible;
-  padding: 30px 20px 60px 120px;
+  height: 100%;
+  padding: 4% 15% 0%;
   clear: none;
   background-color: #fff;
 }
@@ -300,11 +301,54 @@ p {
 }
 
 .icon {
-  background-color: gray;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  padding: 5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #8b4e4c;
+  font-size: 20px;
 }
 
 .icon-2 {
-  background-color: gray;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  padding: 5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #8b4e4c;
+  font-size: 20px;
+}
+
+.html-embed {
+  height: 225px;
+}
+
+.mask {
+  height: 100%;
+  min-height: 100%;
 }
 
 @media (max-width: 991px) {
@@ -349,9 +393,16 @@ p {
     background-size: 600px;
     background-repeat: no-repeat;
   }
+  ._10-p-padding.m-adj-slider {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
 }
 
 @media (max-width: 479px) {
+  .div-block {
+    padding-top: 0%;
+  }
   .center-aligned.title {
     font-size: 40px;
     line-height: 45px;
@@ -367,6 +418,10 @@ p {
     background-size: 600px;
     background-repeat: no-repeat;
   }
+  ._10-p-padding.m-adj-slider {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
   .image-2 {
     left: 0px;
   }
@@ -376,6 +431,38 @@ p {
   }
   .m-center-aligned {
     text-align: center;
+  }
+  .slide {
+    padding: 0% 5%;
+  }
+  .icon {
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    margin-right: 0px;
+  }
+  .icon-2 {
+    left: 0%;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    margin-left: 0px;
+  }
+  .html-embed {
+    height: 250px;
+  }
+  .mask {
+    padding-bottom: 0px;
+  }
+  .left-arrow {
+    left: 0%;
+    top: 13px;
+    right: auto;
+    bottom: 0%;
+  }
+  .slide-nav-2 {
+    margin-top: 0px;
   }
 }
 
