@@ -6,6 +6,10 @@ h2 {
   line-height: 45px;
   font-weight: 700;
 }
+a, a:visited{
+  color: #cfd5af;
+  text-decoration: none;
+}
 
 p {
   margin-bottom: 10px;
